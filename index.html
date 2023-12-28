@@ -21,91 +21,22 @@
 
 <body>
 
+    <!--  -->
+    <p id="test"></p>
+    <input id="user_input" oninput="read()" type="text">
 
-    <div class="row mx-2">
-        <h2 class="text-center"> Service what we provide</h2>
+    <script>
 
-        <!-- 1st -->
-        <div class="col text-center border border-1 rounded-4 m-2 pt-3 shadow-lg" style="border-color: #c2c0ba;">
-            <i class="fa fa-recycle text-primary" style="font-size: 30px;"></i>
-            <h5> AI Training </h5>
-            <p> this is AI Trainign this is AI Trainign this is AI Trainignthis is AI Trainign</p>
+        var x = [21, 34, 53, 65, 324, 98, 56, 43, 23, 64];
 
-        </div>
-
-        <!-- 2nd -->
-        <div class="col text-center  border border-3 rounded-4 m-2">
-            <i class="fa fa-recycle"></i>
-            <h5> AI Training </h5>
-            <p> this is AI Trainign this is AI Trainign this is AI Trainignthis is AI Trainign</p>
-
-        </div>
-
-        <!-- 3rd -->
-        <div class="col text-center  border border-3 rounded-4 m-2">
-            <i class="fa fa-recycle"></i>
-            <h5> AI Training </h5>
-            <p> this is AI Trainign this is AI Trainign this is AI Trainignthis is AI Trainign</p>
-
-        </div>
-
-        <!-- 4th -->
-        <div class="col text-center  border border-3 rounded-4 m-2">
-            <i class="fa fa-recycle"></i>
-            <h5> AI Training </h5>
-            <p> this is AI Trainign this is AI Trainign this is AI Trainignthis is AI Trainign</p>
-
-        </div>
-
-    </div>
+        for (var i = 0; i < x.length; i++) {
+            if (x[i] % 2 != 0) {
+                console.log(x[i]);
+            }
+        }
 
 
-    <table style="width: 100%;" class="p-3">
-        <tr>
-            <td>
-                <label class="px-4" for="fullname">Fullname </label>
-            </td>
-            <td>
-                <input id="fullname" class="form-control" type="text" placeholder="Your name">
-            </td>
-        </tr>
-
-        <tr>
-            <td>
-                <label class="px-4" for="fullname">LastName </label>
-            </td>
-            <td>
-                <input id="fullname" class="form-control" type="text" placeholder="Your name">
-            </td>
-        </tr>
-    </table>
-    <hr>
-
-    <div class="container">
-        <form action="">
-            <div class="row">
-                <div class="col">
-                    <label class="px-4" for="fullname">FirstName </label>
-                </div>
-                <div class="col-10">
-                    <input id="fullname" class="form-control" type="text" placeholder="Your name">
-                </div>
-            </div>
-
-            <!-- Second Row -->
-            <div class="row my-2">
-                <div class="col">
-                    <label class="px-4" for="fullname">LastName </label>
-                </div>
-                <div class="col-10">
-                    <input id="fullname" class="form-control border border-2 p-3" type="text" placeholder="Your name">
-                </div>
-            </div>
-
-        </form>
-
-
-    </div>
+    </script>
 
 </body>
 
