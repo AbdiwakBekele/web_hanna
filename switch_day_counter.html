@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+        <!-- Input Number and Displays the Date of that number -->
+        <p id="demo"></p>
+        <input type="number" id="day" placeholder="Input date number"><br>
+        <input type="submit" onclick="countDate()">
+
+
+        <script>
+            function countDate() {
+                var day_number = Number(document.getElementById("day").value);
+
+                switch (day_number) {
+                    case 1:
+                        document.getElementById('demo').innerHTML = "This is Monday";
+                        break;
+
+                    case 2:
+                        document.getElementById('demo').innerHTML = "This is Tuesday";
+                        break;
+
+                    default:
+                        document.getElementById('demo').innerHTML = "Not Assigned";
+
+                }
+            }
+
+        </script>
+
+    </body>
+
+</html>
