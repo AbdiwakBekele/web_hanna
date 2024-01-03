@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+
+    <body>
+
+
+        <script>
+            // To Upper Case
+            // var msg = "Hello world";
+            // var result = msg.toUpperCase();
+            // console.log(result);
+
+
+            // Split String
+            // var msg = "Hello World";
+            // var result = msg.split(' ');
+            // console.log(result);
+
+            // Sub String, slice, 
+            // var msg = "Hello World";
+            // var result = msg.substring(2, 7);
+            // console.log(result);
+
+            // String Content Check
+            var msg = 'Test123!';
+            var result_capital = /[A-Z]/.test(msg); //Capital Letter
+            var result_small = /[a-z]/.test(msg); //Small Letter
+            var result_number = /\d/.test(msg); //Number
+            var result_special = /[!@#$%^&*()]/.test(msg); //Special Char
+
+            console.log(result_capital);
+            console.log(result_small);
+            console.log(result_number);
+            console.log(result_special);
+
+        </script>
+
+    </body>
+
+</html>
