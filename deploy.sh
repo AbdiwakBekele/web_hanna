@@ -1,8 +1,8 @@
 #!/bin/bash
 
-HOST="ftp.my-digitalid.com" # Replace with your cPanel FTP server hostname
-USERNAME="digitalid@admin.my-digitalid.com" # Replace with your cPanel FTP_username
-PASSWORD="mydigitalid_digitalid" # Replace with your cPanel FTP password
+HOST="ftp.digitalid.com" # Replace with your cPanel FTP server hostname
+USERNAME="digitalid@admin.digitalid.com" # Replace with your cPanel FTP_username
+PASSWORD="digitalid_digitalid" # Replace with your cPanel FTP password
 
 TARGETDIR="/" # Replace with the target directory on your cPanel account
 
